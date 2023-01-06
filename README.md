@@ -2,9 +2,16 @@
 ### File structure
 ```
 .
+├── 01-CreateDatabase.sql
 ├── Main.java
 ├── README.md
-└── compile.sh
+├── TryDbProjects
+│   ├── Script.PostDeployment.InsertUsers.sql
+│   ├── TryDbProjects.sqlproj
+│   └── Users.sql
+├── compile.sh
+└── infrastructure
+    └── createAzureSQLServer.sh
 
-0 directories, 3 files
+2 directories, 8 files
 ```
