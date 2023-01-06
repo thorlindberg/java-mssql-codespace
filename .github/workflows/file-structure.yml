@@ -12,7 +12,7 @@ jobs:
           echo "# ${repo_name}" > README.md
           echo '### File structure' >> README.md
           echo '```' >> README.md
-          tree -a -I '.git' >> README.md
+          tree -a -I '.git*' >> README.md
           echo '```' >> README.md
       - name: Push changes
         run: |
