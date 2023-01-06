@@ -7,7 +7,7 @@ javac *.java
 jar cvfe program.jar Main *.class
 
 # Run the program JAR file
-java -jar program.jar
+java -cp sqljdbc.jar -jar program.jar
 
 # Delete files
 rm *.class
