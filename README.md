@@ -10,10 +10,6 @@
 │   └── mssql
 │       ├── installSQLtools.sh
 │       └── postCreateCommand.sh
-├── .github
-│   └── workflows
-│       └── file-structure.yml
-├── .gitignore
 ├── 01-CreateDatabase.sql
 ├── Main.java
 ├── README.md
@@ -25,5 +21,5 @@
 └── infrastructure
     └── createAzureSQLServer.sh
 
-6 directories, 16 files
+4 directories, 14 files
 ```
