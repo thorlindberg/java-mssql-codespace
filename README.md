@@ -5,7 +5,6 @@
 ├── .devcontainer
 │   ├── Dockerfile
 │   ├── devcontainer.json
-│   ├── devcontainer2.json
 │   ├── docker-compose.yml
 │   └── mssql
 │       ├── installSQLtools.sh
@@ -13,8 +12,9 @@
 ├── Main.java
 ├── README.md
 ├── compile.sh
-└── infrastructure
-    └── createAzureSQLServer.sh
+├── infrastructure
+│   └── createAzureSQLServer.sh
+└── sqljdbc.jar
 
 3 directories, 10 files
 ```
